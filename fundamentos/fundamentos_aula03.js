@@ -111,6 +111,18 @@ pessoa.nome = "Lucas";
 console.log(pessoa);
 console.log(pessoa.nome.toUpperCase());
 
+/*
+    Operadores Aritmeticos
+    + - * / % **
 
+    precendência
+    ()
+    **
+    * / %
+    + - 
+
+    Biblioteca "Math"
+
+*/
 
 

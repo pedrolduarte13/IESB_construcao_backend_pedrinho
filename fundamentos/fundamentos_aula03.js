@@ -232,4 +232,19 @@ const multiplicar = function (numA, numB) {
 
 console.log("Chamando multiplicar antes", multiplicar(2,2));
 
+// Para uma linha apenas
+const teste = () => console.log("TESTE");
+
+// para varias linhas
+const teste = function() {
+    console.log("TESTE");
+    console.log("TESTE");
+    console.log("TESTE");
+}
+
+teste()
+
+const somaArrow = (numA, numB) => numA + numB
+
+console.log("Chamando somaArrow", somaArrow(2,5));
 

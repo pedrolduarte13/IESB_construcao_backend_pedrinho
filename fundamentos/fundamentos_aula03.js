@@ -8,7 +8,7 @@ var testandoVar = "TestanoVar"
 console.log(testandoVar);
 
 // Const >> Criar uma constante (variavel que não sofre alteração)
-const PI = 3
+const PI = 3.14; 
 
 // PI = 9999
 
@@ -28,7 +28,7 @@ String
 
 Number
     -> 1 1.2 -12
-``
+
 Boolean
     -> true ou false
 
@@ -124,5 +124,75 @@ console.log(pessoa.nome.toUpperCase());
     Biblioteca "Math"
 
 */
+
+/*
+
+Operadores relacionais
+
+>: (Maior) <: (Menor) >=: (Maior ou igual) <= (Menor ou igual)
+
+==: (Igual) !=: (diferença)
+
+Compara valor e tipo
+
+===: (Igualdade restrita) !==: (Diferença restrita)
+
+Operadores logicos
+
+! Negação
+&& E
+|| Ou
+
+*/
+
+/* IF ELSE
+
+let idade = 25;
+if(condicao) {
+    acao
+}
+
+*/
+let idade = 23
+
+if(idade >= 18) {
+    console.log("Maior de idade");
+} else {
+    console.log("Menor de idade");
+}
+
+let curso = "ads";
+idade = 20;
+
+if(curso == "ads" && idade >= 18) {
+    console.log("Confirmado")
+} else {
+    console.log("Negado");
+}
+
+if(curso != "ads") {
+    console.log("O curso não é ads é ads");
+}
+
+if(curso == "ads"); {
+    console.log("O curso é ads");
+} if (idade >= 18) {
+    console.log("Maior de idade");
+} else {
+    console.log("Nenhuma condição atendida");
+}
+
+/* Repetição
+
+for (iniciazacao; condicao; incremento) {
+    acao
+}
+
+*/
+
+for (let i = 0; i < 9; i++) {
+    console.log("contador? ", i)
+    console.log("loop")
+}
 
 

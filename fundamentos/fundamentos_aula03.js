@@ -190,9 +190,46 @@ for (iniciazacao; condicao; incremento) {
 
 */
 
-for (let i = 0; i < 9; i++) {
+for (let i = 0; i < 10; i++) {
     console.log("contador? ", i)
     console.log("loop")
+} 
+
+// funcao
+function executa() {
+    console.log("Chamando funcao executa");
 }
+
+executa()
+executa()
+executa()
+executa()
+executa()
+executa()
+
+//funcao com parametro e sem retorno
+
+function executa(nome = "nome padrao") {
+    console.log("Chamando funcao executa com parametro")
+    console.log(nome)
+}
+
+executa()
+executa("Pedro")
+
+// Funcao com retorno
+
+function soma(numA, numB) {
+    return numA + numB
+}
+
+let resultado = soma(2, 4)
+console.log(resultado);
+
+const multiplicar = function (numA, numB) {
+    return numA + numB
+}
+
+console.log("Chamando multiplicar antes", multiplicar(2,2));
 
 
